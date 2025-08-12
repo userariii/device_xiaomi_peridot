@@ -338,7 +338,8 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors-service.xiaomi-multihal
+    android.hardware.sensors-service.xiaomi-multihal \
+    android.frameworks.sensorservice@1.0
 
 PRODUCT_PACKAGES += \
     sensors.dynamic_sensor_hal \
